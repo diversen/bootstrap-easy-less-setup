@@ -24,7 +24,8 @@ file changes to less files.
 ## Setup, Run, and Watch
 
 Run a setup command, which creates a public directory, where
-your less files and compilled CSS will go. 
+your less files and compilled CSS will go. You will get the file
+`styles.less` as a strating point, which includes `bootstrap`
 
     npm run setup
 
@@ -38,8 +39,7 @@ Create another terminal window, and run:
 
     npm run watch
 
-Now `styles.css` and `styles.map` will be compiled when you edit your `.less`
-files. 
+Now `styles.css` and `styles.map` will be compiled when you edit your `styles.less` file. 
     
 ## Source mappings
 

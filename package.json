@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-less-easy-setup",
-  "version": "1.0.3",
-  "description": "A opiniated easy setup of bootstrap with lessc compiler running on file changes. ",
+  "version": "1.0.5",
+  "description": "Simple dev setup of bootstrap. Compile bootstrap's less files to CSS on changes to the less files. ",
   "main": "index.js",
   "scripts": {
     "watch": "simple-file-watch --extension='less' --path='./public' --command='lessc --source-map=public/styles.map public/styles.less public/styles.css'",
@@ -10,10 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diversen/bootstrap-less-easy-setup.git"
+    "url": "git+https://github.com/diversen/bootstrap-easy-less-setup.git"
   },
   "keywords": [
     "bootstrap",
+    "source mappings",
     "less",
     "easy",
     "setup"
