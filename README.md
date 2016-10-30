@@ -25,7 +25,7 @@ file changes to less files.
 
 Run a setup command, which creates a public directory, where
 your less files and compilled CSS will go. You will get the file
-`styles.less` as a strating point, which includes `bootstrap`
+`styles.less` as a starting point, which includes `bootstrap`
 
     npm run setup
 
