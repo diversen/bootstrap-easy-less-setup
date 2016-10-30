@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="da">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<link rel="stylesheet" href="styles.css" />
+<title>Less Test</title>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>bootstrap-less-easy-setup</h1>
+<p>Easy setup for adding own rules to bootstrap using lessc.
+Includes http-server and watch system to check if less
+files changes - and on a change auto-compile <code>styles.css</code></p>
+<h2>Dependencies:</h2>
+<p>You will need to install the lessc compiler using:</p>
+<pre><code>npm install -g less
+</code></pre>
+<h2>Install</h2>
+<p>Install the <code>bootstrap-less-easy-setup</code> package:</p>
+<pre><code>git clone github.com/diversen/bootstrap-less-easy-setup
+cd bootstrap-less-easy-setup
+npm install
+</code></pre>
+<p>Now you have bootstrap, a http-server, and a system to watch
+file changes to less files.</p>
+<h2>Setup, Run, and Watch</h2>
+<p>Run a setup command, which creates a public directory, where
+your less files and compilled CSS will go.</p>
+<pre><code>npm run setup
+</code></pre>
+<p>Now you can serve the files in the public dir by doing a</p>
+<pre><code>npm run serve
+</code></pre>
+<p>You can now browse to localhost:8080</p>
+<p>Create another terminal window, and run:</p>
+<pre><code>npm run watch
+</code></pre>
+<p>Now <code>styles.css</code> and styles.map will be compiled when you edit your .less
+files.</p>
+<h2>Source mappings</h2>
+<p>You can use source mappings so that it is possible to edit the less files
+in chrome, and then they will recompile:</p>
+<p>Open chrome dev tools, and press <code>settings</code> and then <code>workspaces</code>.</p>
+<p>Browse and add the <code>bootstrap-less-easy-setup/public</code> folder.</p>
+<p>Chrome will ask you for permissions. Press <code>accept</code> in the toolbar.</p>
+<p>Add mappings:</p>
+<pre><code>Url Prefix: http://localhost:8080/
+Folder path (change to your own path): /home/dennis/bootstrap-easy-less-setup
+</code></pre>
+<p>Now go to sources -&gt; sources. You can now open the <code>styles.less</code> file and edit it.
+When you save it, the CSS file <code>styles.css</code> will be auto-compiled.</p>
+
+
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
