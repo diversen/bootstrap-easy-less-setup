@@ -1,4 +1,4 @@
-# bootstrap-less-easy-setup 
+# bootstrap-easy-less-setup
 
 Easy setup for adding own rules to bootstrap using lessc. 
 Includes http-server and watch system to check if less
@@ -12,10 +12,10 @@ You will need to install the lessc compiler using:
 
 ## Install
 
-Install the `bootstrap-less-easy-setup` package: 
+Install the `bootstrap-easy-less-setup` package: 
 
-    git clone github.com/diversen/bootstrap-less-easy-setup
-    cd bootstrap-less-easy-setup
+    git clone github.com/diversen/bootstrap-easy-less-setup
+    cd bootstrap-easy-less-setup
     npm install
     
 Now you have bootstrap, a http-server, and a system to watch 
@@ -38,7 +38,7 @@ Create another terminal window, and run:
 
     npm run watch
 
-Now `styles.css` and styles.map will be compiled when you edit your .less 
+Now `styles.css` and `styles.map` will be compiled when you edit your `.less`
 files. 
     
 ## Source mappings
@@ -55,8 +55,8 @@ Chrome will ask you for permissions. Press `accept` in the toolbar.
 Add mappings: 
 
     Url Prefix: http://localhost:8080/
-    Folder path (change to your own path): /home/dennis/bootstrap-easy-less-setup
+    Folder path (change to your own path): /home/dennis/bootstrap-easy-less-setup/public
 
 Now go to sources -> sources. You can now open the `styles.less` file and edit it. 
 When you save it, the CSS file `styles.css` will be auto-compiled.
- 
+
