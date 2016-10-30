@@ -20,12 +20,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        {DOCS}
+                        <hr />
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/diversen/bootstrap-easy-less-setup" class="btn-my btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">https://github.com/diversen/bootstrap-easy-less-setup</span></a>
                             </li>
                         </ul>
+                        {DOCS}
                     </div>
                 </div>
             </div>
