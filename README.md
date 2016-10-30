@@ -48,7 +48,7 @@ in chrome, and then they will recompile:
 
 Open chrome dev tools, and press `settings` and then `workspaces`. 
 
-Browse and add the `bootstrap-less-easy-setup/public` folder. 
+Browse and add the `bootstrap-easy-less-setup/public` folder. 
 
 Chrome will ask you for permissions. Press `accept` in the toolbar. 
 
