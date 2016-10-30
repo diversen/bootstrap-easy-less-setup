@@ -1,10 +1,10 @@
 {
   "name": "bootstrap-less-easy-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A opiniated easy setup of bootstrap with lessc compiler running on file changes. ",
   "main": "index.js",
   "scripts": {
-    "watch": "simple-file-watch --extension='less' --path='.' --command='lessc --source-map=public/styles.map public/styles.less public/styles.css'",
+    "watch": "simple-file-watch --extension='less' --path='./public' --command='lessc --source-map=public/styles.map public/styles.less public/styles.css'",
     "serve": "http-server public",
     "setup": "./setup.sh"
   },
