@@ -14,7 +14,7 @@ You will need to install the lessc compiler using:
 
 Install the `bootstrap-easy-less-setup` package: 
 
-    git clone github.com/diversen/bootstrap-easy-less-setup
+    git clone https://github.com/diversen/bootstrap-easy-less-setup
     cd bootstrap-easy-less-setup
     npm install
     
