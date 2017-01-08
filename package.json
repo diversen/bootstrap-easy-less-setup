@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-less-easy-setup",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Simple dev setup of bootstrap. Compile bootstrap's less files to CSS on changes to the less files. ",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "http-server": "^0.9.0",
-    "simple-file-watch": "^1.0.1"
+    "simple-file-watch": "^2.0.0"
   },
   "devDependencies": {
     "replace": "^0.3.0"
