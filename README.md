@@ -61,4 +61,6 @@ Now go to sources -> sources. You can now open the `styles.less` file and edit i
 When you save it, the CSS file `styles.css` will be auto-compiled.
 
 The top button is a custom button style called `my-btn`. It is at the top of 
-the less file. 
+the less file.
+
+License MIT 
