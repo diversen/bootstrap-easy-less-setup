@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-less-easy-setup",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Simple dev setup of bootstrap. Compile bootstrap's less files to CSS on changes to the less files. ",
   "main": "index.js",
   "scripts": {
