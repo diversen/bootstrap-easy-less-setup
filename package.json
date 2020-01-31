@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-less-easy-setup",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Simple dev setup of bootstrap. Compile bootstrap's less files to CSS on changes to the less files. ",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   "author": "dennis iversen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diversen/bootstrap-less-easy-setup/issues"
+    "url": "https://github.com/diversen/bootstrap-easy-less-setup"
   },
-  "homepage": "https://github.com/diversen/bootstrap-less-easy-setup#readme",
+  "homepage": "https://github.com/diversen/bootstrap-easy-less-setup",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "http-server": "^0.9.0",

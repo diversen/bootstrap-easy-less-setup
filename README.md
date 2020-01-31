@@ -1,3 +1,7 @@
+# Archived: 
+
+Use e.g. the [less-watch-compiler](https://www.npmjs.com/package/less-watch-compiler) as it is quite easy to use. 
+
 # bootstrap-easy-less-setup
 
 Easy setup for adding own rules to bootstrap using lessc. 
